@@ -1,0 +1,596 @@
+/*Defolt-CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+.container-fluid{
+    margin: 0rem 4rem;
+}
+/* header */
+.header{
+   background-color:#FFF8F3;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 1rem;
+    margin-left: 8rem;
+    margin-right: 4rem;
+}
+.logo {
+    font-size:3.2rem;
+    font-weight:800;
+    line-height:4rem;
+    letter-spacing: 0em;
+    color: #000;
+}
+.menubar li{
+    display: inline-block;
+}
+.logoMax{
+    color: #FD6E0A;
+}
+.menubar li a {
+    font-family: Open Sans;
+    padding: .4rem 1rem;
+    font-size: 1.8rem;
+    margin: 0rem .6rem;
+    box-shadow: 1px 2px 4px 0px #433b3a9c;
+    color: #000;
+    transition: all ease-in-out .4s;
+    border-radius: 1.3rem;
+}
+.menubar li a:hover{
+    background: #FD6E0A;
+}
+.menuMax a{
+    background-color:#FD6E0A;
+    color: #fff !important;
+    transition: ease-in-out .4s;
+}
+.menuMax a:hover{
+    color: #000 !important;
+}
+.developerImg img {
+    position: absolute;
+    height: 45rem;
+    left: 1rem;
+    top: 2rem;
+    transform: translate(10px, 10px);
+}
+.header_bgImg img {
+    height: 30rem;
+    float: right;
+    margin-top: 16rem;
+    margin-right: -4rem;
+}
+.hardyImg img {
+    position: absolute;
+    height: 40rem;
+    right: 4rem;
+    top: 10rem;
+    z-index: 2;
+    transform: translate(10px, 10px);
+}
+.headerMessage {
+    position: absolute;
+    top: 29rem;
+    left: 35%;
+    transform: translate(-49%, -62%);
+}
+.headerMessage h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 57px;
+}
+.headerMessage h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7.1rem;
+    line-height: 9.5rem;
+}
+.headerMessage p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+.headerMessage button {
+    margin-right: .8rem;
+    margin-top: 2rem;
+    border: .1rem solid #FD6E0A;
+    box-shadow: 2px 3px 2px 1px #ac4e0c;
+    border-radius: .8rem;
+}
+.headerMessage button a{
+    padding: .8rem 1rem;
+}
+.btnHeader01{
+    background:#FD6E0A ;
+}
+.btnHeader01 a{
+     color: #fff;
+}
+.btnHeader02{
+    background: #fff;
+}
+.btnHeader02 a{
+    color: #FD6E0A;
+}
+.Header {
+    background-color: #FFF8F3;
+    height: 51rem;
+}
+/* about  */
+.about {
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+}
+.aboutMain {
+    width: 80%;
+    margin: auto;
+    padding: 5rem 3.6rem;
+    background-color: #FFF8F3;
+    text-align: center;
+}
+.aboutInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.aboutInfo li {
+    text-align: center;
+    margin: 3rem;
+}
+.aboutMain h1 {
+    font-size: 2.6rem;
+    font-family: 'FontAwesome';
+}
+.aboutMain p {
+    font-size: 1.4444rem;
+    line-height: 2.2222rem;
+    margin: 2rem 5rem .5rem;
+}
+.aboutInfo li h3 {
+    color: #8f8888;
+    margin-bottom: 0.333rem;
+}
+.myInfoMain{
+    display: flex;
+    justify-content: center;
+}
+.myInfoHead {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.myInfoHead h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+.myInfoHead p {
+    margin: 1rem 1rem 4rem;
+    font-size: 1.3333rem;
+}
+.myInfoChild {
+    max-width: 20%;
+    box-shadow: inset -1px -1.7px 4px 0px #000;
+    width: 20%;
+    transition: all ease;
+    background: white;
+    padding: 2.2rem;
+    margin: 1rem;
+    border-top-right-radius: 2.1rem;
+}
+.myInfoChild:hover{
+    box-shadow: inset -1.66px -2px 4px 0px #000;
+}
+.myInfoChild img {
+    height: 4rem;
+}
+.myInfoChild h3 {
+    font-size: 1.5rem;
+    margin: 1.4rem 0rem 2rem;
+}
+.myInfoChild p {
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+}
+/* resume */
+section.Resume {
+    text-align: center;
+}
+.resumeMain {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+}
+.resumeMainChild01{
+    max-width: 50%;
+    width: 45%;
+}
+.resumeMainChild02{
+    max-width: 50%;
+    width: 45%;
+}
+.resumeMainChild01Main{
+    border-bottom:.1rem solid #000 ;
+}
+section.myInfo {
+    margin: 10rem 0rem 12rem;
+}
+.myInfoBtn {
+    margin-top: 6.5rem;
+    border: .1rem solid #FD6E0A;
+    box-shadow: 2px 3px 2px 1px #ac4e0c;
+    border-radius: .8rem;
+}
+.myInfoBtn a {
+    border-radius: .8rem;
+    padding: .8rem 1rem;
+    transition: ease-in .3s;
+}
+.myInfoBtn a:hover{
+    color:#FD6E0A;
+    background-color: #fff;
+}
+.Resume h1 {
+    font-size: 2.8rem;
+    line-height: 5rem;
+    margin: 2rem 0rem 4rem;
+    color: #000;
+    font-family: cursive;
+}
+.Resume span{
+    color: #FD6E0A;
+}
+.ResumeC {
+    margin: 0rem 5rem;
+}
+.resumeMainChild01 h2 {
+    margin: 1rem 0rem 2.3rem;
+    font-size: 2.4rem;
+}
+.resumeMainChild02 h2 {
+    margin: 1rem 0rem 2.3rem;
+    font-size: 2.4rem;
+}
+.resumeMainChild01Main h3 {
+    font-size: 1.66rem;
+    line-height: 4rem;
+}
+.resumeMainChild01Main h4 {
+    font-size: 1.444rem;
+    color: #5f5f5f;
+}
+.resumeMainChild01Main p {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #7c7c7c;
+}
+/* form  */
+.from{
+    background-color:#FFF8F3;
+}
+.fromMain {
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 4rem;
+    margin: 10rem 0rem 0rem;
+}
+.fromMainChild{
+    max-width: 50%;
+    width: 40%;
+}
+form {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.fromInfo input,textarea{
+    width: 70%;
+    padding: .5rem .5rem;
+    Outline: none
+}
+
+.fromInfo label {
+    font-size: 1.7rem;
+    margin: 2rem 0rem 0.3rem;
+}
+.fromMainChild input[type="submit"] {
+    font-size: 1.7rem;
+    padding: .3rem .8888rem;
+    background: #FD6E0A;
+    border: .1rem solid #8383832b;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    color: #fff;
+    box-shadow: 1px 1px 5px 0px #ac4e0c;
+}
+.fromMainChild h2 {
+    font-size: 2.5rem;
+    font-family: inherit;
+}
+.fromMainChild  p {
+    font-size: 1.4rem;
+    line-height: 3rem;
+    margin: 2rem 0rem 1rem;
+}
+.fromMainChild span img {
+    height: 2.3rem;
+    margin-right: .8rem;
+}
+
+@media screen and (max-width:892px) {
+    html{
+        font-size: 55%;
+    }
+    .myInfoChild {
+        max-width: 25%;
+        width: 25%;
+    }
+    .fromMainChild {
+        max-width: 50%;
+        width: 45%;
+    }
+    .aboutMain {
+        width: 95%;
+    }
+}
+@media screen and (max-width:760px) {
+    html{
+        font-size: 45%;
+    }
+    .myInfoHead {
+        text-align: center;
+        width: 95%;
+        margin: auto;
+    }
+    .headerMessage h3 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .fromInfo input, textarea {
+        width: 85%;
+    }
+}
+@media screen and (max-width:620px){
+    .headerMessage {
+        top: 31rem;
+        left: 38%;
+    }
+    .aboutMain {
+        padding: 5rem 0rem;
+    }
+    .headerMessage h3 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .headerMessage h1 {
+        font-size: 6.2rem;
+        line-height: 8.5rem;
+    }
+    .aboutInfo li {
+        margin: 3rem 2rem;
+    }
+    .headerMessage p {
+        font-size: 1.5rem;
+        line-height: 21px;
+    }
+    .myInfoChild {
+        max-width: 55%;
+        width: 45%;
+    }
+    .myInfoMain {
+        flex-wrap: wrap;
+        padding: 3.2rem;
+    }
+    .fromInfo input, textarea {
+        width: 100%;
+    }
+    .hardyImg img {
+        height: 34rem;
+        right: 3rem;
+        top: 15.5rem;
+    }
+    .header_bgImg img {
+        height: 23rem;
+        margin-top: 23rem;
+    }
+}
+@media screen and (max-width:553px){
+    html{
+        font-size: 42%;
+    }
+    .Resume h1 {
+        font-size: 3rem;
+    }
+    .resumeMainChild01Main h3 {
+        font-size: 1.66rem;
+        line-height: 2.4rem;
+        margin: .5rem 0rem 1rem;
+    }
+    .Header {
+        height: 47rem;
+    }
+    .developerImg img {
+        height: 42rem;
+        top: 1rem;
+    }
+    .hardyImg img {
+        height: 29rem;
+        top: 16.5rem;
+    }
+    .header_bgImg img {
+        height: 18rem;
+        margin-top: 24rem;
+    }
+    .headerMessage {
+        top: 29rem;
+        left: 41%;
+    }
+    .headerMessage h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .headerMessage h1 {
+        font-size: 5.2rem;
+        line-height: 5.5rem;
+    }
+    .headerMessage p {
+        font-size: 1.4rem;
+        line-height: 19px;
+    }
+    .headerMessage button {
+        margin-top: 1rem;
+    }
+    .headerMessage button a {
+        padding: .6rem 1rem;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:450px){
+    .aboutInfo li {
+    text-align: center;
+    margin: 2rem 1rem;
+}
+.headerMessage {
+    margin-left: 2rem;
+}
+.header_bgImg img {
+    margin-right: -.5rem;
+}
+.container-fluid{
+    margin: 0rem .5rem;
+}
+.aboutMain {
+    width: 100%;
+    padding: 4rem 0rem;
+}
+.developerImg img {
+    display: none;
+}
+}
+@media screen and (max-width:425px){
+    .Header {
+        height: 40rem;
+        margin-left: 0rem;
+    }
+    .aboutMain p {
+        margin: 2rem 3rem .5rem;
+    }
+    .hardyImg img {
+        height: 25rem;
+        top: 13.5rem;
+        right: 2rem;
+    }
+    .resumeMain {
+        flex-wrap: wrap;
+    }
+    .aboutInfo {
+        flex-wrap: wrap;
+    }
+    .aboutInfo li {
+        text-align: center;
+        margin: 1rem 4rem;
+    }
+    .header_bgImg img {
+        height: 16rem;
+        margin-top: 19rem;
+        margin-right: -.5rem;
+    }
+    .headerMessage {
+        top: 24rem;
+        left: 33%;
+        margin-left: 1rem;
+    }
+    .menu {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+@media screen and (max-width:350px){
+    .container-fluid{
+        margin: 0rem;
+    }
+    .resumeMainChild01 {
+        max-width: 100%;
+        width: 80%;
+    }
+    .resumeMainChild02 {
+        max-width: 100%;
+        width: 80%;
+        margin-top: 5rem;
+    }
+    .fromMain {
+        flex-wrap: wrap;
+        padding: 4rem 4rem 10rem;
+    }
+    .fromMainChild {
+        max-width: 100%;
+        width: 80%;
+    }
+    .fromMainChild {
+        margin-top: 6rem;
+    }
+    .myInfoChild {
+        max-width: 80%;
+        width: 80%;
+    }
+    section.myInfo {
+        margin: 10rem 0rem 5rem;
+    }
+    .headerMessage button a {
+        font-size: 1.3rem;
+    }
+    .headerMessage p {
+        line-height: 14px;
+        margin: .5rem 0rem;
+    }
+    .headerMessage h1 {
+        font-size: 4.4rem;
+        line-height: 5.5rem;
+    }
+    .headerMessage h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .Header {
+        height:39rem;
+    }
+    .header_bgImg img {
+        height: 15rem;
+    }
+    .hardyImg img {
+        height: 24rem;
+        top: 13.5rem;
+        right: 1.2rem;
+    }
+    .aboutMain p {
+        font-size: 1.4444rem;
+        line-height: 2.2222rem;
+        margin: 2rem 2rem .5rem;
+    }
+}
