@@ -260,8 +260,9 @@ section.myInfo {
     color: #000;
     font-family: cursive;
 }
-.Resume span{
+.Resume span {
     color: #FD6E0A;
+    font-family: cursive;
 }
 .ResumeC {
     margin: 0rem 5rem;
@@ -476,6 +477,18 @@ form {
     text-align: center;
     margin: 2rem 1rem;
 }
+.resumeMainChild01 {
+    max-width: 100%;
+    width: 80%;
+}
+.resumeMain {
+    flex-wrap: wrap;
+}
+.resumeMainChild02 {
+    max-width: 100%;
+    width: 80%;
+    margin-top: 5rem;
+}
 .headerMessage {
     margin-left: 2rem;
 }
@@ -500,6 +513,15 @@ form {
     }
     .aboutMain p {
         margin: 2rem 3rem .5rem;
+    }
+    .fromMain {
+        flex-wrap: wrap;
+        padding: 4rem 4rem 10rem;
+    }
+    .fromMainChild {
+        max-width: 100%;
+        width: 80%;
+        margin-top: 6rem;
     }
     .hardyImg img {
         height: 25rem;
@@ -534,26 +556,6 @@ form {
 @media screen and (max-width:350px){
     .container-fluid{
         margin: 0rem;
-    }
-    .resumeMainChild01 {
-        max-width: 100%;
-        width: 80%;
-    }
-    .resumeMainChild02 {
-        max-width: 100%;
-        width: 80%;
-        margin-top: 5rem;
-    }
-    .fromMain {
-        flex-wrap: wrap;
-        padding: 4rem 4rem 10rem;
-    }
-    .fromMainChild {
-        max-width: 100%;
-        width: 80%;
-    }
-    .fromMainChild {
-        margin-top: 6rem;
     }
     .myInfoChild {
         max-width: 80%;
