@@ -168,7 +168,7 @@ html{
 .aboutMain p {
     font-size: 1.4444rem;
     line-height: 2.2222rem;
-    margin: 2rem 5rem .5rem;
+    margin: 2rem 2rem .5rem;
 }
 .aboutInfo li h3 {
     color: #8f8888;
@@ -190,6 +190,7 @@ html{
 .myInfoHead p {
     margin: 1rem 1rem 4rem;
     font-size: 1.3333rem;
+    line-height: 2.6rem;
 }
 .myInfoChild {
     max-width: 20%;
